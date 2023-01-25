@@ -1,5 +1,5 @@
 # Fiction-Interactive-SA22
-<b>Présentation du projet</b> :
+<b>Présentation du projet</b> : <br>
 "Les Cycles" est une fiction interactive codée sur Twine en format SugarCube2.36.1. Elle a été réalisée dans le cadre du cours "Fiction interactive" d'Isaac Pante à l'Université de Lausanne (SLI, Lettres, UNIL) au semestre d'automne 2022. 
 La première version (Abus) a été créée avec Harlowe sur Twine avant de passer sur SugarCube pour la V2 pour profiter de l'interface plus modulable, notamment l'ajout facile de "sidebar". 
 Cette FI a plusieurs fonctionnalités : le coeur est les choix qui mènent à chaque fois vers un passage différent (pas de faux choix menant au même passage). Par contre, il faut débloquer certains codes pour que certains passages importants se débloquent. Le début de la FI se construit autour d'un "cycle" qu'il faudra briser sous peine de "mourir". Pour débloquer de nouveaux passages, plusieurs mécanismes ont été utilisés : cliquer sur certains mots pour faire apparaître un texte important ou pour débloquer un passage, remplir un textbox avec le bon mot-clé... 
@@ -28,7 +28,7 @@ https://maryloug.itch.io/lescycles
 Remis à jour en janvier 2023 et republié à la place de l'ancienne version. 
 
 <b>copyright</b> : 
-N'ayant absolument aucune connaissance en code au-delà du HTML basique pour faire de la maintenance de site internet, j'ai pêché mes codes dans <i>beaucoup<i> d'endroits. Liste des sites/projets/vidéos visités/es: 
+N'ayant absolument aucune connaissance en code au-delà du HTML basique pour faire de la maintenance de site internet, j'ai pêché mes codes dans <i>beaucoup</i> d'endroits. Liste des sites/projets/vidéos visités/es: 
   
   
  https://qjzhvmqlzvoo5lqnrvuhmg.on.drv.tw/UInv/Sample_Code.html#Music
@@ -48,4 +48,5 @@ N'ayant absolument aucune connaissance en code au-delà du HTML basique pour fai
   Code utilisé et repris quasi tel quel pour les textbox : 
   https://fjolt.com/article/css-ios-crystalline-effect-backdrop-filter
   
-  
+  Copyright de la musique utilisée : (en construction)
+  Spartacus Suite No. 2: Adagio of Spartacus and Phrygia. Aram Khachaturian. 9:34. Téléchargé sur https://archive.org/details/11.Khachaturian-AdagioFromSpartacus
