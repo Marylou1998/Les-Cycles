@@ -22,6 +22,10 @@ Ces options n'apparaissent pas tant qu'elles n'ont pas été débloquées.
 
 Fonctionnalités/ajouts en développement : musique classique pour souligner l'avancée de l'histoire, les moments de stress, etc. 
 
+Choix des musiques : 
+<i>Spartacus - Adagio for Spartacus and Phrygia</i>, Khachaturian : pour le "set up" où on peut encore croire que c'est une histoire d'amour. Chaque matin, au réveil.
+<i>Danse Macabre, Op. 40 </i>, Saint Saëns : la lente "descente aux enfers", le cycle dont on ne peut pas sortir... la danse qui mène à la mort. 
+
 <b>Procédure d'installation</b>:
 Le jeu a été lancé en décembre 2022 en mode prototype sur itch.io en mode privé avec un mdp : FIUNIL
 https://maryloug.itch.io/lescycles
@@ -38,6 +42,7 @@ N'ayant absolument aucune connaissance en code au-delà du HTML basique pour fai
   https://github.com/ChapelR/custom-macros-for-sugarcube-2/blob/master/scripts/speech.js
   https://www.w3schools.com/howto/howto_css_image_text.asp
   https://intfiction.org/t/twine-sugarcube-background-image-with-link/55486
+  http://twinery.org/questions/7298/how-to-link-audio-files-in-sugarcube-2-21-0
   
   Code utilisé pour la couleur de tous les textes/passages : 
   https://twinery.org/forum/discussion/5625/any-dynamic-text-effect-macros-for-sugarcube-2-x
@@ -50,3 +55,4 @@ N'ayant absolument aucune connaissance en code au-delà du HTML basique pour fai
   
   Copyright de la musique utilisée : (en construction)
   Spartacus Suite No. 2: Adagio of Spartacus and Phrygia. Aram Khachaturian. 9:34. Téléchargé sur https://archive.org/details/11.Khachaturian-AdagioFromSpartacus
+  Danse macabre, op. 40 - Camille Saint-Saëns. Arturo Toscanini (1867-1957) Disque microsillon 45 tours La Voix de son maître 7 RF 181 (1952). N.B.C. Symphony Orchestra. Téléchargé sur https://archive.org/details/7-rf-181off-saint-saens-danse-macabre-op.-40-arturo-toscanini
