@@ -5,6 +5,7 @@ La première version (Abus) a été créée avec Harlowe sur Twine avant de pass
 Cette FI a plusieurs fonctionnalités : le coeur est les choix qui mènent à chaque fois vers un passage différent (pas de faux choix menant au même passage). Par contre, il faut débloquer certains codes pour que certains passages importants se débloquent. Le début de la FI se construit autour d'un "cycle" qu'il faudra briser sous peine de "mourir". Pour débloquer de nouveaux passages, plusieurs mécanismes ont été utilisés : cliquer sur certains mots pour faire apparaître un texte important ou pour débloquer un passage, remplir un textbox avec le bon mot-clé... 
 Une fois ces passages débloqués, le véritable combat commence : le joueur peut faire des choix qui auront un impact important sur la suite de l'histoire. Mais malgré tous ces choix, ces passages débloqués et les "achievements" qui peuvent être débloqués dans le jeu, dans certains passages, le/la joueur/euse sera sujet/te au hasard total de la violence : certains passages (en bleu) sont totalement hors de son contrôle, et iel aura pu tout faire correctement et échouer tout de même... 
 ![image](https://user-images.githubusercontent.com/114563068/214649285-a0883d02-14da-4bf5-b69a-559bd5b5a4d7.png)
+J'ai ajouté un premier lien cliquable au tout début du texte pour que le joueur comprenne qu'il doit cliquer sur les bouts de texte en surbrillance pour faire apparaître la suite / passer au passage suivant.
 
 Il existe <i>une</i> voie royale pour réussir du premier coup le jeu. 
 L'interface dispose de deux barres latérales : à gauche, pour suivre sa progression (les informations et achievements débloqués), et à droite, des informations pour sensibiliser sur le sujet de la violence conjugale. 
@@ -12,12 +13,16 @@ Le jeu a deux issues : l'échec et la fin.
 
 Les "textbox" jaunes sont interactives. Il est possible d'entrer du texte dedans. Le premier textbox à remplir est celui du nom de l'abuseur. A ce propos, je sais que les victimes de violences conjugales ne sont pas toujours des femmes. Dans une version ultérieure du projet, il serait intéressant de permettre au joueur de choisir son genre, et celui de l'abuseur, de la même manière qu'il est possible de choisir le nom de l'abuseur. Ce premier textbox permettant de choisir le nom de l'abuseur me paraissait crucial afin que le/la joueur/euse établisse dès le début une sorte de "lien" avec l'abuseur, avant de savoir qu'iel en est la victime. Quelqu'un qui joue au jeu pourrait choisir de mettre dans la case le nom d'une personne aimée ou appréciée... et devoir ensuite jouer jusqu'au bout du jeu avec le nom d'une personne aimée qui, potentiellement, le/la tue. C'était une manière de souligner que les victimes et les auteur-e-s de victimes conjugales sont des couples "lambda". Ils peuvent être littéralement n'importe qui. Y compris - et surtout - des gens qu'on aime .
 ![image](https://user-images.githubusercontent.com/114563068/215513862-50e3a2e2-49b1-482b-b7ec-590299b1de0b.png)
+Il y a aussi des "faux" textbox, qui sont juste une imitation CSS de la fonction textbox. Ces encarts-là ne sont pas interactifs, il s'agit simplement de "notifications" envoyées/reçues qui ne peuvent pas être changées, d'où leur aspect gris. J'ai décidé d'avoir ces deux "encarts" afin d'harmoniser l'aspect du jeu tout en ayant une mécanique interactif (jaune) vs obligatoire (grisé) 
+![image](https://user-images.githubusercontent.com/114563068/215530830-635474ea-44b0-4b7d-8f89-62df6c38ef77.png)
+vs
+![image](https://user-images.githubusercontent.com/114563068/215530961-b303da61-1a43-42e6-9c42-6052f999b7fd.png)
 
-Le jeu a été édité afin que les choix vers les passages soient affichés en brillant (blanc). 
+De la même manière, le jeu a été édité afin que les choix "normaux" vers les passages soient affichés en brillant (blanc). 
 Lorsqu'un choix a été débloqué, le nouveau passage s'affiche en brillant jaune : 
 ![image](https://user-images.githubusercontent.com/114563068/214645720-91989aeb-997e-48c8-a663-5a1473c2ff0b.png)
 Ces options n'apparaissent pas tant qu'elles n'ont pas été débloquées. 
-
+Le jeu a donc été harmonisé afin que "jaune = interactif" et "blanc = base de la structure du jeu"
 
 Fonctionnalités/ajouts en développement : musique pour souligner l'avancée de l'histoire, les moments de stress, etc. 
 Dans la version actuelle publiée sur itch.io (les cycles version finale), deux morceaux de musique classiques, disponibles au téléchargement sur Archive.org, ont été ajoutées. Ce ne sont pas forcément les musiques que j'aimerais intégrer au projet - juste un essai, à la fois pour comprendre comment coder la musique dans le projet, et pour voir l'effet de la musique sur le projet.
