@@ -7,7 +7,7 @@ Une fois ces passages débloqués, le véritable combat commence : le joueur peu
 ![image](https://user-images.githubusercontent.com/114563068/214649285-a0883d02-14da-4bf5-b69a-559bd5b5a4d7.png)
 J'ai ajouté un premier lien cliquable au tout début du texte pour que le joueur comprenne qu'il doit cliquer sur les bouts de texte en surbrillance pour faire apparaître la suite / passer au passage suivant.
 
-Le jeu a deux issues : l'échec et la fin. Il existe <i>une</i> voie royale pour réussir du premier coup le jeu. 
+Le jeu a deux issues : l'échec et la fin. Il existe une voie royale pour réussir du premier coup le jeu, en brisant le cycle dès le premier tour et en n'ayant aucun élément de hasard.
 
 L'interface dispose de deux barres latérales : à gauche, pour suivre sa progression (les informations et achievements débloqués), et à droite, des informations pour sensibiliser sur le sujet de la violence conjugale. 
 
