@@ -12,15 +12,15 @@ Le jeu a deux issues : l'échec et la fin.
 
 Le jeu a été édité afin que les choix vers les passages soient affichés en brillant. 
 ![image](https://user-images.githubusercontent.com/114563068/214645220-faf402f3-0717-4731-a14a-2b1f4b494e8e.png)
-Les "textbox" jaunes sont interactives. Il est possible d'entrer du texte dedans. 
-<b>En cours</b> : ajout d'une fonction "return"
+Les "textbox" jaunes sont interactives. Il est possible d'entrer du texte dedans. Le premier textbox à remplir est celui du nom de l'abuseur. A ce propos, je sais que les victimes de violences conjugales ne sont pas toujours des femmes. Dans une version ultérieure du projet, il serait intéressant de permettre au joueur de choisir son genre, et celui de l'abuseur, de la même manière qu'il est possible de choisir le nom de l'abuseur. Ce premier textbox permettant de choisir le nom de l'abuseur me paraissait crucial afin que le/la joueur/euse établisse dès le début une sorte de "lien" avec l'abuseur, avant de savoir qu'iel en est la victime. Quelqu'un qui joue au jeu pourrait choisir de mettre dans la case le nom d'une personne aimée ou appréciée... et devoir ensuite jouer jusqu'au bout du jeu avec le nom d'une personne aimée qui, potentiellement, le/la tue. C'était une manière de souligner que les victimes et les auteur-e-s de victimes conjugales sont des couples "lambda". Ils peuvent être littéralement n'importe qui. Y compris - et surtout - des gens qu'on aime .
 
 Lorsqu'un choix a été débloqué, le nouveau passage s'affiche en brillant jaune : 
 ![image](https://user-images.githubusercontent.com/114563068/214645720-91989aeb-997e-48c8-a663-5a1473c2ff0b.png)
 Ces options n'apparaissent pas tant qu'elles n'ont pas été débloquées. 
 
 
-Fonctionnalités/ajouts en développement : musique classique pour souligner l'avancée de l'histoire, les moments de stress, etc. 
+Fonctionnalités/ajouts en développement : musique pour souligner l'avancée de l'histoire, les moments de stress, etc. 
+Dans la version actuelle publiée sur itch.io (les cycles version finale), deux morceaux de musique classiques, disponibles au téléchargement sur Archive.org, ont été ajoutées. Ce ne sont pas forcément les musiques que j'aimerais intégrer au projet - juste un essai, à la fois pour comprendre comment coder la musique dans le projet, et pour voir l'effet de la musique sur le projet.
 
 Choix des musiques : 
 <i>Spartacus - Adagio for Spartacus and Phrygia</i>, Khachaturian : pour le "set up" où on peut encore croire que c'est une histoire d'amour. Chaque matin, au réveil.
@@ -50,8 +50,10 @@ N'ayant absolument aucune connaissance en code au-delà du HTML basique pour fai
   https://gist.github.com/ChapelR/9b5ddb9d97a87700b2d5ec1b305312ea
   Code utilisé et repris tel quel pour créer le RightSideBar par l'utilisateur HiEv en 2018 : 
   http://twinery.org/questions/25976/how-to-create-a-right-sidebar
-  Code utilisé et repris quasi tel quel pour les textbox : 
+  Code utilisé et repris quasi tel quel pour le style des textbox : 
   https://fjolt.com/article/css-ios-crystalline-effect-backdrop-filter
+  Code utilisé pour pouvoir valider le texte entré dans les textbox : 
+  https://intfiction.org/t/text-box-and-the-enter-key-query/45281/2
   
   Copyright de la musique utilisée : (en construction)
   Spartacus Suite No. 2: Adagio of Spartacus and Phrygia. Aram Khachaturian. 9:34. Téléchargé sur https://archive.org/details/11.Khachaturian-AdagioFromSpartacus
