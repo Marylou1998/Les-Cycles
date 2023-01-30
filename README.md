@@ -10,10 +10,10 @@ Il existe <i>une</i> voie royale pour réussir du premier coup le jeu.
 L'interface dispose de deux barres latérales : à gauche, pour suivre sa progression (les informations et achievements débloqués), et à droite, des informations pour sensibiliser sur le sujet de la violence conjugale. 
 Le jeu a deux issues : l'échec et la fin. 
 
-Le jeu a été édité afin que les choix vers les passages soient affichés en brillant. 
-![image](https://user-images.githubusercontent.com/114563068/214645220-faf402f3-0717-4731-a14a-2b1f4b494e8e.png)
 Les "textbox" jaunes sont interactives. Il est possible d'entrer du texte dedans. Le premier textbox à remplir est celui du nom de l'abuseur. A ce propos, je sais que les victimes de violences conjugales ne sont pas toujours des femmes. Dans une version ultérieure du projet, il serait intéressant de permettre au joueur de choisir son genre, et celui de l'abuseur, de la même manière qu'il est possible de choisir le nom de l'abuseur. Ce premier textbox permettant de choisir le nom de l'abuseur me paraissait crucial afin que le/la joueur/euse établisse dès le début une sorte de "lien" avec l'abuseur, avant de savoir qu'iel en est la victime. Quelqu'un qui joue au jeu pourrait choisir de mettre dans la case le nom d'une personne aimée ou appréciée... et devoir ensuite jouer jusqu'au bout du jeu avec le nom d'une personne aimée qui, potentiellement, le/la tue. C'était une manière de souligner que les victimes et les auteur-e-s de victimes conjugales sont des couples "lambda". Ils peuvent être littéralement n'importe qui. Y compris - et surtout - des gens qu'on aime .
+![image](https://user-images.githubusercontent.com/114563068/215513862-50e3a2e2-49b1-482b-b7ec-590299b1de0b.png)
 
+Le jeu a été édité afin que les choix vers les passages soient affichés en brillant (blanc). 
 Lorsqu'un choix a été débloqué, le nouveau passage s'affiche en brillant jaune : 
 ![image](https://user-images.githubusercontent.com/114563068/214645720-91989aeb-997e-48c8-a663-5a1473c2ff0b.png)
 Ces options n'apparaissent pas tant qu'elles n'ont pas été débloquées. 
