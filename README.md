@@ -7,12 +7,11 @@ Une fois ces passages débloqués, le véritable combat commence : le joueur peu
 ![image](https://user-images.githubusercontent.com/114563068/214649285-a0883d02-14da-4bf5-b69a-559bd5b5a4d7.png)
 J'ai ajouté un premier lien cliquable au tout début du texte pour que le joueur comprenne qu'il doit cliquer sur les bouts de texte en surbrillance pour faire apparaître la suite / passer au passage suivant.
 
-Il existe <i>une</i> voie royale pour réussir du premier coup le jeu. 
+Le jeu a deux issues : l'échec et la fin. Il existe <i>une</i> voie royale pour réussir du premier coup le jeu. 
+
 L'interface dispose de deux barres latérales : à gauche, pour suivre sa progression (les informations et achievements débloqués), et à droite, des informations pour sensibiliser sur le sujet de la violence conjugale. 
-Le jeu a deux issues : l'échec et la fin. 
 
 Les "textbox" jaunes sont interactives. Il est possible d'entrer du texte dedans. Le premier textbox à remplir est celui du nom de l'abuseur. A ce propos, je sais que les victimes de violences conjugales ne sont pas toujours des femmes. Dans une version ultérieure du projet, il serait intéressant de permettre au joueur de choisir son genre, et celui de l'abuseur, de la même manière qu'il est possible de choisir le nom de l'abuseur. Ce premier textbox permettant de choisir le nom de l'abuseur me paraissait crucial afin que le/la joueur/euse établisse dès le début une sorte de "lien" avec l'abuseur, avant de savoir qu'iel en est la victime. Quelqu'un qui joue au jeu pourrait choisir de mettre dans la case le nom d'une personne aimée ou appréciée... et devoir ensuite jouer jusqu'au bout du jeu avec le nom d'une personne aimée qui, potentiellement, le/la tue. C'était une manière de souligner que les victimes et les auteur-e-s de victimes conjugales sont des couples "lambda". Ils peuvent être littéralement n'importe qui. Y compris - et surtout - des gens qu'on aime .
-![image](https://user-images.githubusercontent.com/114563068/215513862-50e3a2e2-49b1-482b-b7ec-590299b1de0b.png)
 Il y a aussi des "faux" textbox, qui sont juste une imitation CSS de la fonction textbox. Ces encarts-là ne sont pas interactifs, il s'agit simplement de "notifications" envoyées/reçues qui ne peuvent pas être changées, d'où leur aspect gris. J'ai décidé d'avoir ces deux "encarts" afin d'harmoniser l'aspect du jeu tout en ayant une mécanique interactif (jaune) vs obligatoire (grisé) 
 ![image](https://user-images.githubusercontent.com/114563068/215530830-635474ea-44b0-4b7d-8f89-62df6c38ef77.png)
 vs
@@ -49,16 +48,16 @@ N'ayant absolument aucune connaissance en code au-delà du HTML basique pour fai
   https://intfiction.org/t/twine-sugarcube-background-image-with-link/55486
   http://twinery.org/questions/7298/how-to-link-audio-files-in-sugarcube-2-21-0
   
-  Code utilisé pour la couleur de tous les textes/passages : 
-  https://twinery.org/forum/discussion/5625/any-dynamic-text-effect-macros-for-sugarcube-2-x
-  Lorsque j'ai découvert à mi-chemin qu'il valait mieux passer de Harlowe à SugarCube, ceci m'a beaucoup aidée : 
-  https://gist.github.com/ChapelR/9b5ddb9d97a87700b2d5ec1b305312ea
-  Code utilisé et repris tel quel pour créer le RightSideBar par l'utilisateur HiEv en 2018 : 
-  http://twinery.org/questions/25976/how-to-create-a-right-sidebar
-  Code utilisé et repris quasi tel quel pour le style des textbox : 
-  https://fjolt.com/article/css-ios-crystalline-effect-backdrop-filter
-  Code utilisé pour pouvoir valider le texte entré dans les textbox : 
-  https://intfiction.org/t/text-box-and-the-enter-key-query/45281/2
+  Code utilisé pour la couleur de tous les textes/passages par l'utilisateur greyelf en 2016 : <br>
+  https://twinery.org/forum/discussion/5625/any-dynamic-text-effect-macros-for-sugarcube-2-x <br>
+  Lorsque j'ai découvert à mi-chemin qu'il valait mieux passer de Harlowe à SugarCube, le github ChapelR/harlowe-to-sugarcube.md m'a beaucoup aidée : <br>
+  https://gist.github.com/ChapelR/9b5ddb9d97a87700b2d5ec1b305312ea <br>
+  Code utilisé et repris tel quel pour créer le RightSideBar par l'utilisateur HiEv en 2018 : <br>
+  http://twinery.org/questions/25976/how-to-create-a-right-sidebar <br>
+  Code utilisé et repris quasi tel quel pour le style des textbox par fjolt : <br>
+  https://fjolt.com/article/css-ios-crystalline-effect-backdrop-filter <br>
+  Code utilisé pour pouvoir valider le texte entré dans les textbox par l'utilisateur HiEv en 2020 : <br>
+  https://intfiction.org/t/text-box-and-the-enter-key-query/45281/2 <br>
   
   Copyright de la musique utilisée : (en construction)
   Spartacus Suite No. 2: Adagio of Spartacus and Phrygia. Aram Khachaturian. 9:34. Téléchargé sur https://archive.org/details/11.Khachaturian-AdagioFromSpartacus
