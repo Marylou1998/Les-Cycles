@@ -1,4 +1,8 @@
 # Fiction-Interactive-SA22
+
+Projet publié sur Itch.io 
+https://maryloug.itch.io/lescycles
+
 <b>Présentation du projet</b> : <br>
 "Les Cycles" est une fiction interactive codée sur Twine en format SugarCube2.36.1. Elle a été réalisée dans le cadre du cours "Fiction interactive" d'Isaac Pante à l'Université de Lausanne (SLI, Lettres, UNIL) au semestre d'automne 2022. 
 La première version (Abus) a été créée avec Harlowe sur Twine avant de passer sur SugarCube pour la V2 pour profiter de l'interface plus modulable, notamment l'ajout facile de "sidebar". 
