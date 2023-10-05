@@ -1,4 +1,4 @@
-# Fiction-Interactive-SA22
+# Les Cycles - UNIL
 
 Projet publié sur Itch.io 
 https://maryloug.itch.io/lescycles
